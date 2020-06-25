@@ -1,0 +1,96 @@
+*/
+
+
+
+:root {
+
+    --dark:#1a1a1a;
+
+    --white: #ffffff;
+
+    --light-grey: #efefef;
+
+    --gold: #ecd5a7;
+
+}
+body {
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-size: 1rem;
+
+    font-weight: 300;
+
+    letter-spacing: .05rem;
+
+    background-color: #757575;
+    position: absolute;
+    background: rgba(48, 51, 107,.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+
+    font-family: 'Oswald', sans-serif;
+
+    font-weight: 500 !important;
+
+    line-height: 1.5 !important;
+
+}
+a {
+
+    color: var(--light);
+
+}
+
+
+
+a:hover {
+
+    color: var(--light);
+
+    text-decoration: none;
+
+}
+.navbar {
+
+    background-color: var(--dark);
+
+    min-height: 5rem;
+    box-shadow: 5px 5px 10px #000;
+
+}
+.nav-link {
+
+    font-size: 0.8rem;
+
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    color: var(--white);
+
+}
+.main-header{
+    position: relative;
+    background: url(./imagenes/banpersi.jpeg);
+    background-size: cover;
+    min-height: 200px;
+    
+}
+.background-overlay{
+    position: absolute;
+    background: rgba(48, 51, 107,.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
